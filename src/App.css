@@ -125,3 +125,97 @@ span.navbar-text {
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+
+
+/* main */
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(61, 230, 215, 0.5) -5.91%, rgba(129, 108, 224, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+  width: 250px;
+  margin-left: 100px;
+  margin-top: -100px;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/* skills */
+.skill {
+  padding: 0 0 200px 0;
+  position: relative;
+}
+.skill-bx {
+  background: rgba(21, 231, 238, 0.1);
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.skill-bx h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 20px;
+
+}
+.skill-bx p {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+    
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+
+.item h5{
+  font-size: 22px;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
