@@ -5,6 +5,7 @@ import projImg2 from "../assets/images/final.webp";
 import projImg3 from "../assets/images/skyhouse.webp";
 import projImg4 from "../assets/images/store.webp";
 import projImg5 from "../assets/images/zoo.webp";
+import projImg6 from "../assets/images/todo.webp";
 import colorSharp2 from "../assets/images/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -43,10 +44,10 @@ export const Projects = () => {
       url:"https://mariamdateshidze.github.io/SkyHouse/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg5,
-      url:"https://mariamdateshidze.github.io/SkyHouse/",
+      title: "To Do App",
+      description: "This Project is ToDo App. You can add, delete and update your list items.",
+      imgUrl: projImg6,
+      url:"https://todo-app-zeta-rosy.vercel.app/",
     },
   ];
 
