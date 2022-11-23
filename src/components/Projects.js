@@ -45,7 +45,7 @@ export const Projects = () => {
     },
     {
       title: "To Do App",
-      description: "This Project is ToDo App. You can add, delete and update your list items.",
+      description: "This Project is ToDo App, built with React JS. You can add, delete and update your list items.",
       imgUrl: projImg6,
       url:"https://todo-app-zeta-rosy.vercel.app/",
     },
